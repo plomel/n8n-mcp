@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "n8n": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\Ryzen 7 5700g Gamer\\Documents\\Claude\\Obsidian_Vault One\\Projects\\n8n-mcp\\n8n_mcp.py"
+      ]
+    }
+  }
+}
