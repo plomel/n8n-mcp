@@ -25,7 +25,7 @@ load_dotenv(Path(__file__).parent / ".env")
 
 N8N_URL   = os.getenv("N8N_URL", "http://localhost:5678").rstrip("/")
 N8N_KEY   = os.getenv("N8N_API_KEY", "")
-VAULT_PATH = Path(os.getenv("VAULT_PATH", r"C:\Users\Ryzen 7 5700g Gamer\Documents\Claude\Obsidian_Vault One"))
+VAULT_PATH = Path(os.getenv("VAULT_PATH", r"C:\ObsidianVault\Obsidian Vault\ObsidianVaultOne"))
 
 HEADERS = {
     "X-N8N-API-KEY": N8N_KEY,
